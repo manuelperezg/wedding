@@ -29,19 +29,6 @@ Last change: 08 june 2018
 ===========================
   General and Typography
 ============================ */
-.embed-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
-}
-.embed-container iframe {
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
 
 html {
     width: 100%;
@@ -428,32 +415,32 @@ nav.navbar.shrink ul.dropdown-menu>li>a {
   -webkit-animation-duration:26s;
           animation-duration: 26s;
   opacity: 1;
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 /* Ken Burns animation */
 
 .slideshow-image:nth-child(1) {
-  background-image: url('../img/couplefullwidth.jpg');
+  background-image: url('../img/foto4.jpg');
   -webkit-animation-name: kenburns-1;
           animation-name: kenburns-1;
   z-index: 3;
 }
 .slideshow-image:nth-child(2) {
-  background-image: url('../img/couplefullwidth2.jpg');
+  background-image: url('../img/foto3.jpg');
   -webkit-animation-name: kenburns-2;
           animation-name: kenburns-2;
   z-index: 2;
 }
 .slideshow-image:nth-child(3) {
-   background-image: url('../img/couplefullwidth3.jpg');
+   background-image: url('../img/foto2.jpg');
   -webkit-animation-name: kenburns-3;
           animation-name: kenburns-3;
   z-index: 1;
 }
 .slideshow-image:nth-child(4) {
-  background-image: url('../img/couplefullwidth4.jpg');
+  background-image: url('../img/foto1.jpg');
   -webkit-animation-name: kenburns-4;
           animation-name: kenburns-4;
   z-index: 0;
